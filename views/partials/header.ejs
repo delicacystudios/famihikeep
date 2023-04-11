@@ -1,0 +1,39 @@
+<%- include('../partials/links'); %>
+
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+        <% if(`aria-controls="navbarSupportedContent"`) { %>
+          <a class="navbar-brand navbar-logo" style="margin-left: 2px;" href="#">
+            <img src="img/tlogo.png" class="logo" style="max-height: 170px; max-width: 250px;" alt="">
+          </a>
+        <% } else { %>
+          <a class="navbar-brand navbar-logo" style="margin-left: 10px;" href="#">
+            <img src="img/tlogo.png" class="logo" style="max-height: 170px; max-width: 250px;" alt="">
+          </a>
+        <% } %>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-black"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" style="margin-right: 3%;">
+                <div class="hori-selector"><div class="left"></div><div class="centre"></div></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="/" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-tent"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-id-card" style="color: #000000;"></i>About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/noaccess" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-star" style="color: #000000;"></i>Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/noaccess" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-folder-open" style="color: #000000;"></i>Examples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/noaccess" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact" style="color: #000000" href="javascript:void(0);"><i class="fa-solid fa-comment" style="color: #000000;"></i>Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
